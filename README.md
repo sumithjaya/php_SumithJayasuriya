@@ -10,6 +10,6 @@ The UI is done by css without using bootstrap or Matrial UI
 
 ### Laravel Setup
 1. Run `composer install`
-2. Run `php artisan migrate'
-3. Run `php artisan server'
+2. Run `php artisan migrate`
+3. Run `php artisan server`
 
