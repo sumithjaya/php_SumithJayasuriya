@@ -90,33 +90,7 @@
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
 <script>
-    $(document).ready(function() {
 
-
-        $("#dialog-message").dialog({
-            modal: true,
-            autoOpen: false,
-            buttons: {
-                Ok: function() {
-                    $(this).dialog("close");
-                }
-            }
-        });
-
-
-        $("#showthis").click(function() {
-
-            var nameval  = $('#showthis').attr('name')
-
-            $('#dialog-message'+nameval).dialog('open');
-
-        });
-
-    });
-
-    var showdialogfun = ()=>{
-
-    }
 </script>
 
 </html>
